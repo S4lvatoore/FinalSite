@@ -1,0 +1,42 @@
+.back {
+    width: 100%; /* Занимаем всю ширину страницы */
+    height: 300px;
+    background-color: yellowgreen;
+    position: relative;
+}
+
+.capacity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+}
+
+.content1 ,.content2{
+    text-align: center;
+    display: block;
+    font-size: 70px;
+    color: greenyellow;
+}
+.content2 {
+    font-size: 30px;
+    margin-top: 15px;
+}
+.button-engage a {
+    text-decoration: none;
+    padding: 15px 30px;
+    display: block;
+    background: #4271cc;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+.button-engage a:hover {
+    background-color: darkblue;
+}
+li {
+    list-style: none;
+}
