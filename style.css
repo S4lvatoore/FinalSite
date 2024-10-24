@@ -48,7 +48,7 @@ li {
 
 header {
     z-index: 1000;
-    position: relative;
+    position: fixed;
 }
 
 nav ul li:hover .dropdown {
