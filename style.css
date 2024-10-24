@@ -1,9 +1,9 @@
-
 .back {
     width: 100%;
     height: 300px;
     background-color: yellowgreen;
     position: relative;
+    z-index: 1;
 }
 
 .capacity {
@@ -14,16 +14,18 @@
     flex-direction: column;
 }
 
-.content1 ,.content2{
+.content1, .content2 {
     text-align: center;
     display: block;
     font-size: 70px;
     color: greenyellow;
 }
+
 .content2 {
     font-size: 30px;
     margin-top: 15px;
 }
+
 .button-engage a {
     text-decoration: none;
     padding: 15px 30px;
@@ -35,10 +37,46 @@
     font-size: 16px;
     transition: background 0.3s ease;
 }
+
 .button-engage a:hover {
     background-color: darkblue;
 }
+
 li {
     list-style: none;
 }
 
+header {
+    z-index: 1000;
+    position: relative;
+}
+
+nav ul li:hover .dropdown {
+    display: block;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    padding: 10px 0;
+    min-width: 150px;
+    top: 100%;
+    left: 0;
+    z-index: 9999;
+}
+
+.dropdown li a {
+    padding: 10px 15px;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown li a:hover {
+    background-color: #555;
+}
+
+.active {
+    background-color: black;
+}

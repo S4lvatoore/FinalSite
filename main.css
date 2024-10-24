@@ -1,0 +1,62 @@
+
+.collaboration {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.section-title {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+
+
+.section-subtitle {
+    font-size: 18px;
+    color: #999;
+    margin-bottom: 40px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.image-box {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    width: 27%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-placeholder {
+    background-color: #eaeaea;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.image-box h3 {
+    font-size: 24px;
+    color: #4271cc;
+    margin-bottom: 15px;
+}
+
+.image-box p {
+    font-size: 16px;
+    color: #555;
+}
