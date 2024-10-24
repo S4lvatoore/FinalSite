@@ -1,6 +1,6 @@
 .back {
     width: 100%;
-    height: auto; /* Высота автоматически подстраивается под содержимое */
+    height: auto;
     background-color: yellowgreen;
     position: relative;
     z-index: 1;
