@@ -1,35 +1,30 @@
-/* Оранжевая секция */
+
 .features-section {
-    background-color: #d29d28; /* Оранжевый фон */
-    padding: 50px 0; /* Убираем боковые отступы, оставляем только верхние и нижние */
+    background-color: #d29d28;
+    padding: 50px 0;
     text-align: center;
     display: flex;
-    justify-content: center; /* Центрируем содержимое */
-    flex-wrap: wrap; /* Блоки будут переноситься на новую строку на малых экранах */
-    width: 100%; /* Фон тянется на всю ширину экрана */
+    justify-content: center;
+    width: 100%;
 }
 
-/* Контейнер для контента внутри секции */
 .features-container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    max-width: 1200px; /* Ограничиваем ширину контента */
+    max-width: 1200px;
     width: 100%;
-    padding: 0 20px; /* Внутренние отступы по бокам */
+    padding: 0 20px;
 }
-
 
 .feature-box {
-    width: 30%;
+    width: 300px;
     padding: 20px;
     border-radius: 10px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
     background-color: transparent;
-    box-shadow: none;
-    margin: 0 15px 20px; /* Фиксированный отступ между блоками */
+    margin: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 
 
 .feature-icon {
@@ -62,18 +57,8 @@
     transition: background-color 0.3s ease;
 }
 
-
-
-@media (max-width: 1024px) {
-    .feature-box {
-        width: 45%;
-        margin: 0 10px 20px;
-    }
+.feature-btn:hover {
+    background-color: black;
+    color: white;
 }
 
-@media (max-width: 768px) {
-    .feature-box {
-        width: 100%;
-        margin: 0 0 20px;
-    }
-}
