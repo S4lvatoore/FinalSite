@@ -10,7 +10,7 @@
 
 
 .section-subtitle {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto 40px;
     font-size: 18px;
     color: #666;
@@ -31,11 +31,6 @@
     margin-bottom: 20px;
     margin-right: 15px;
 }
-
-
-
-
-
 .image-placeholder {
     width: 100%;
     height: auto;
@@ -54,12 +49,6 @@
 .image-box p {
     font-size: 16px;
     color: #555;
-}
-
-@media (max-width: 1024px) {
-    .image-box {
-        width: calc(50% - 20px);
-    }
 }
 
 @media (max-width: 768px) {

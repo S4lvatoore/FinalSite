@@ -21,11 +21,9 @@
 }
 
 .content1 {
-
     color: greenyellow;
     word-wrap: break-word;
     max-width: 90%;
-
     font : 60px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
@@ -39,6 +37,13 @@
 
 .button-engage {
     margin-top: 30px;
+}
+small
+{
+    font-size: 65%;
+    color: #777;
+    line-height: 1;
+    font-weight: 400;
 }
 
 .button-engage a {
@@ -99,4 +104,38 @@ nav ul li:hover .dropdown {
 
 .active {
     background-color: black;
+}
+@media only screen and (max-width: 768px) {
+    .back {
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .content1 {
+        font-size: 40px;
+        max-width: 100%;
+    }
+
+    .content2 {
+        font-size: 18px;
+        max-width: 100%;
+    }
+
+    .button-engage a {
+        padding: 8px 16px;
+        font-size: 14px;
+        min-width: 120px;
+        max-width: 100%;
+    }
+
+    .dropdown {
+        min-width: 100%;
+    }
+    .capacity {
+        padding-top: 5px;
+    }
+    .some-class {
+        margin: 5px;
+        padding: 5px;
+    }
 }
