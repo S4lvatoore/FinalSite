@@ -63,20 +63,20 @@ nav ul li:hover .dropdown {
 .active {
     background-color: black;
 }
-.search-container {
+.input-place {
     display: flex;
     align-items: center;
     gap: 5px;
 }
 
-.search-container input {
+.input-place input {
     padding: 5px;
     border-radius: 4px;
     border: 1px solid #ccc;
     outline: none;
 }
 
-.search-container button {
+.input-place button {
     padding: 5px 10px;
     border-radius: 4px;
     border: 1px solid #ccc;
@@ -84,7 +84,7 @@ nav ul li:hover .dropdown {
     cursor: pointer;
 }
 
-.search-container button:hover {
+.input-place button:hover {
     background-color: #f0f0f0;
 }
 .menu-toggle {
