@@ -10,11 +10,10 @@
 
 .features-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
-    max-width: 1200px;
-    width: 100%;
-    padding: 0 20px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .feature-box {
@@ -22,8 +21,10 @@
     padding: 20px;
     border-radius: 10px;
     background-color: transparent;
-    margin: 15px;
+
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+    margin-right: 15px;
 }
 
 

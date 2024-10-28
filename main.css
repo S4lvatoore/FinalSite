@@ -1,4 +1,3 @@
-
 .collaboration {
     padding: 50px 20px;
     text-align: center;
@@ -9,13 +8,9 @@
     margin-bottom: 20px;
 }
 
-small
-{
-    font-size: 20px;
 
-}
 .section-subtitle {
-    max-width:1200px;
+    max-width: 800px;
     margin: 0 auto 40px;
     font-size: 18px;
     color: #666;
@@ -61,3 +56,14 @@ small
     color: #555;
 }
 
+@media (max-width: 1024px) {
+    .image-box {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 768px) {
+    .image-box {
+        width: calc(100% - 20px);
+    }
+}
